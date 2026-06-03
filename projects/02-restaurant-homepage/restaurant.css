@@ -2,31 +2,33 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
-body{
-    background:#f4f4f4;
-    background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    font-family:'Poppins', Arial, sans-serif;
 }
 
+body{
+    background:#000;
+}
+
+/* HERO SECTION */
+
 .hero{
-    height:auto;
+    min-height:100vh;
 
     background:
     linear-gradient(
         rgba(0,0,0,0.55),
         rgba(0,0,0,0.55)
     ),
-    url("restaurant.jpg");
+    url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80');
 
     background-size:cover;
     background-position:center;
+    background-repeat:no-repeat;
 
     color:white;
 }
+
+/* NAVBAR */
 
 .navbar{
     display:flex;
@@ -37,8 +39,9 @@ body{
 }
 
 .logo{
-    font-size:20px;
-    font-weight:bold;
+    font-size:24px;
+    font-weight:700;
+    letter-spacing:2px;
 }
 
 .nav-links{
@@ -51,15 +54,18 @@ body{
     text-decoration:none;
     color:white;
     font-size:14px;
+    font-weight:500;
     transition:0.3s;
 }
 
 .nav-links a:hover{
-    color:gold;
+    color:#FFD700;
 }
 
+/* HERO CONTENT */
+
 .hero-content{
-    height:auto;
+    min-height:80vh;
 
     display:flex;
     flex-direction:column;
@@ -67,41 +73,77 @@ body{
     align-items:center;
 
     text-align:center;
+    padding:20px;
 }
 
 .small-title{
-    letter-spacing:4px;
+    letter-spacing:6px;
     font-size:14px;
     margin-bottom:10px;
+    text-transform:uppercase;
 }
 
 .restaurant-text{
-    font-family:cursive;
     font-size:60px;
+    font-family:cursive;
     margin-bottom:20px;
 }
 
 .hero-content h1{
-    font-size:70px;
+    font-size:72px;
     font-weight:900;
     margin-bottom:15px;
 }
 
 .subtitle{
-    font-size:24px;
-    margin-bottom:30px;
+    font-size:22px;
+    max-width:600px;
+    margin-bottom:35px;
 }
 
 .btn{
     text-decoration:none;
     color:white;
-    border:2px solid gold;
-    padding:12px 30px;
-    border-radius:30px;
+
+    border:2px solid #FFD700;
+
+    padding:14px 35px;
+
+    border-radius:50px;
+
     transition:0.3s;
 }
 
 .btn:hover{
-    background:gold;
+    background:#FFD700;
     color:black;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:20px;
+        padding:20px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .restaurant-text{
+        font-size:40px;
+    }
+
+    .hero-content h1{
+        font-size:42px;
+    }
+
+    .subtitle{
+        font-size:18px;
+    }
 }
