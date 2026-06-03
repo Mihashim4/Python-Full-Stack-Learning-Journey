@@ -1,64 +1,82 @@
- # My HTML & CSS Learning Journey 🚀
+# Python Full Stack Development Journey 🚀
 
-Welcome to my HTML and CSS learning repository! This repository documents my progress, practice projects, experiments, and exercises as I learn web development from the ground up.
+Welcome to my learning repository!
 
-## 📖 About
+This repository contains my projects, practice exercises, notes, and experiments as I learn Python Full Stack Development. It serves as a record of my progress and continuous improvement in web development.
 
-This repository serves as a personal learning journal where I:
+## 📚 What I'm Learning
 
-- Learn the fundamentals of HTML and CSS
-- Practice building web pages and layouts
-- Experiment with different design techniques
-- Improve my frontend development skills
-- Track my growth over time
-
-## 🛠️ Technologies Used
-
+### Frontend Development
 - HTML5
 - CSS3
+- Responsive Web Design
+- JavaScript
 
-## 📂 Repository Structure
+### Backend Development
+- Python
+- Flask / Django
+- REST APIs
+- Database Integration
 
-The repository may contain:
+### Databases
+- MySQL
+- SQLite
 
-- Basic HTML practice files
-- CSS styling exercises
-- Mini projects
-- Layout experiments
-- Responsive design practice
-- Learning notes and examples
+### Tools & Technologies
+- Git & GitHub
+- VS Code
+- Linux
+- Command Line
 
-## 🎯 Learning Goals
+## 🎯 Learning Objectives
 
-- Understand semantic HTML
-- Master CSS selectors and properties
-- Build responsive websites
-- Learn Flexbox and Grid
-- Improve UI design skills
-- Create complete frontend projects
+- Build modern and responsive websites
+- Develop backend applications using Python
+- Create and consume APIs
+- Work with databases efficiently
+- Understand full-stack application architecture
+- Deploy web applications
 
-## 📈 Progress
+## 📂 Repository Contents
 
-This repository will be updated regularly as I continue learning and practicing web development.
+This repository may include:
 
-## 🚀 Future Plans
+- HTML & CSS practice files
+- JavaScript exercises
+- Python programs
+- Backend projects
+- Database examples
+- Mini full-stack projects
+- Learning notes
 
-- Python fundamentals
-- Responsive web design
-- CSS animations
-- Frontend frameworks
-- Full-stack web development
+## 📈 Current Progress
 
-## 🤝 Feedback
+- ✅ HTML Basics
+- ✅ CSS Basics
+- 🔄 JavaScript Learning
+- 🔄 Python Development
+- ⏳ Backend Frameworks
+- ⏳ Database Projects
+- ⏳ Full Stack Applications
 
-Suggestions, improvements, and constructive feedback are always welcome.
+## 🚀 Future Goals
 
-## 👨‍💻 Author
+- Build real-world web applications
+- Learn Django/Flask deeply
+- Create portfolio projects
+- Explore AI and Data Science integration with web applications
+- Deploy projects to the cloud
 
-**Mihashim Official**
+## 👨‍💻 About Me
+
+Hi, I'm **Mihashim**.
+
+I'm passionate about technology and currently learning Python Full Stack Development while exploring AI, Data Science, Linux, and Web Technologies.
+
+## 📬 Connect With Me
 
 GitHub: https://github.com/Mihashim4
 
 ---
 
-⭐ If you find this repository helpful or interesting, consider giving it a star!
+*"Every expert was once a beginner. This repository is my journey from learning to building."*
