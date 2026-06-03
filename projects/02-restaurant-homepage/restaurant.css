@@ -13,7 +13,7 @@ body{
 }
 
 .hero{
-    height:100vh;
+    height:auto;
 
     background:
     linear-gradient(
@@ -59,7 +59,7 @@ body{
 }
 
 .hero-content{
-    height:80vh;
+    height:auto;
 
     display:flex;
     flex-direction:column;
