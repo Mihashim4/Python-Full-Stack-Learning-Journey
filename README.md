@@ -43,7 +43,7 @@ This repository will be updated regularly as I continue learning and practicing 
 
 ## 🚀 Future Plans
 
-- JavaScript fundamentals
+- Python fundamentals
 - Responsive web design
 - CSS animations
 - Frontend frameworks
