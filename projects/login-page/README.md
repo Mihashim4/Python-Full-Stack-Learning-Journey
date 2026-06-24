@@ -33,7 +33,7 @@ A modern and responsive Login Page built using HTML and CSS. This project featur
 ```
 project/
 │
-├── login and student details.html
+├── sample-login-page.html
 ├── insta.jpeg
 ├── instag.jpeg
 └── README.md
