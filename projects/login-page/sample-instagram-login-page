@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        *{
+             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+       background : linear-gradient(to top,violet,darkblue,blue);
+       background-repeat: no-repeat;
+       height: 1000px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        }
+    
+        .info{
+            
+            justify-content: center;
+           
+            box-sizing: border-box;
+            border-color: black;
+            padding: 2px;
+            padding-top: 4px;
+            padding-bottom: 3px;
+            padding-left: 2px;
+            padding-right: 2px;
+            
+            position: relative;
+             display: flex;
+            width: 800px;
+            height: 500px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+
+        }
+        .welcome h1 {
+            font-size: 38px;
+            margin-bottom: 15px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           
+        }
+         .welcome p {
+            font-size: 14px;
+            line-height: 1.6;
+            opacity: 0.9;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:whitesmoke;
+        }
+
+        .welcome-bottom {
+            font-size: 14px;
+            opacity: 0.8;
+            margin-top: auto;
+        }
+
+        .logo{
+            position: relative;
+            box-sizing: border-box;
+            height: 50px;
+            width: 50px;
+            margin-left: 110px;
+            top: 10px;
+        }
+        .logog{
+            position: relative;
+            box-sizing: border-box;
+            height: 40px;
+            width: 100px;
+           
+            top: 10px;
+        }
+        .welcome{
+            position: relative;
+            
+             box-sizing: border-box;
+             
+             width: 400px;
+             background: linear-gradient(78deg,rgb(196, 71, 71),rgb(7, 162, 240));
+             padding: 2px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 2px;
+            padding-right: 2px;
+            border-radius:10px 0 0 10px;
+            border-color: aliceblue;
+
+        }
+        .login{
+             box-sizing: border-box;
+             background: radial-gradient(circle, rgba(240, 162, 162, 0.8), rgba(99, 129, 196, 0.5));
+             width: 400px;
+            display: inline-block;
+          padding: 2px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 2px;
+            padding-right: 2px;
+            background-color:white;
+            border-radius: 0 10px 10px 0;
+        }
+         button{
+             height: 30px;
+             width: 100px;
+             background-color: rgb(0, 132, 255);
+             text-decoration: solid;
+             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+             color: azure;
+             
+             position: relative;
+             margin-left: 140px;
+             border-radius: 5px;
+
+
+
+         }
+         button:hover{
+            background-color: red;
+            text-decoration: double;
+            font-family: monospace;
+
+         }
+         .login p{
+            font-family:'Times New Roman', Times, serif;
+            margin-left: 20px;
+         }
+         .login h1{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+            margin-top: 50px;
+            margin-left: 20px;
+            color:rgb(74, 74, 243);
+         }
+         .Username, .Password , .RememberMe{
+            position: relative;
+            left:75px;
+            color:rgb(4, 0, 253);
+         }
+         .rememberme{
+            position: relative;
+            left: 80px;
+            
+         }
+         .NewUser{
+            margin-left:10px;
+            
+         }
+         .ForgetPassword{
+            margin-left: 80px;
+            text-decoration: none;
+         }
+         .welcomel{
+            margin-left: 20px;
+            position: relative;
+            
+            top:150px;
+            font-family:fantasy;
+         }
+         .welcomep{
+            margin-left: 20px;
+            position: relative;
+            top: 50px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+           
+         }   
+         .welcome h1{
+            position:relative;
+            margin-left: 20px;
+            top:40px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:rgb(49, 243, 217);
+         }
+         #Password{
+            height:30px;
+            width:250px;
+         }
+         #Username{
+            height:30px;
+            width:250px;
+         }
+         .SignUp{
+            text-decoration: none;
+         }
+         
+    </style>
+</head>
+<body class="body">
+    <div class="info">
+        <div class="welcome">
+            <img  class = "logo" src="insta.jpeg" alt="COMPANY LOGO">
+            <img class="logog" src="instag.jpeg" alt="COMPANY LOGO">
+            <h1>WELCOME TO...</h1>
+            <p class="welcomep">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit, ex placeat impedit ipsa tempora cumque itaque dolores. Ratione et ex corrupti, mollitia maiores quisquam numquam? Illum iusto ea repudiandae?</p><br><br><br><br><br>
+            <p class="welcomel">Lorem ipsup dolor sit amet </p>
+        </div>
+        <div class="login">
+            <h1>LOGIN</h1><br>
+            <p>Welcome! Login to get amazing discounts and others only for you.</p><br><br><br>
+
+            
+            <label for="Username" class="Username">Username</label><br>
+            <input type="text" id="Username" class="Username" placeholder="Enter your username"><br><br>
+            <label for="Password" class="Password">Password</label><br>
+            <input type="password" id="Password" class="Password" placeholder="Enter your password"><br><br>
+            <input type="checkbox" id="RememberMe" class="RememberMe">
+            <label for="RememberMe" class="rememberme">Remember Me</label><br><br>
+            <br>
+            <button><a class="button" href ="#" style = "color: aliceblue;text-decoration: none;">LOGIN</a></button><br><br><br>
+            <span  class="NewUser">New User? <a href="#" class="SignUp">SignUp</a></span>
+            
+            <a href="#" class="ForgetPassword" > Forget Your Password?</a>
+
+        </div>
+        </div>
+    
+</body>
+</html>
