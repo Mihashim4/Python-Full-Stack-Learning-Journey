@@ -96,7 +96,7 @@ This project helped in understanding:
 1. Download or clone the repository.
 
 ```bash
-git clone https://github.com/yourusername/login-page-ui.git
+git clone https://github.com/Mihashim4/Python-Full-Stack-Learning-Journey/blob/main/projects/03-login-page/sample-insta-login-page.html
 ```
 
 2. Open the project folder.
