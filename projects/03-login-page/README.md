@@ -91,6 +91,24 @@ This project helped in understanding:
 - Hover Effects
 - UI Design Principles
 
+## 📋 How to Run
+
+1. Download or clone the repository.
+
+```bash
+git clone https://github.com/yourusername/login-page-ui.git
+```
+
+2. Open the project folder.
+
+3. Double-click:
+
+```text
+sample-insta-login-page.html
+```
+
+or use VS Code Live Server.
+
 ## 👨‍💻 Author
 
 **Mohamed Imran Hashim**
@@ -99,7 +117,7 @@ GitHub: https://github.com/Mihashim4
 
 ##  Note
 
-** This is a sample login page like instagram **
+**This is a sample login page like instagram**
 
 ## 📄 License
 
