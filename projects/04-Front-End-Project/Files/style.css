@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.logo .red {
+    color: #e60012;
+    font-size: 1.8rem;
+}
+
+.logo .white {
+    color: white;
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-left: 6px;
+}
+
+
+.offer-bar {
+    background: linear-gradient(90deg, #c41e3a, #be0404);
+    color: #fff;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x600?text=Auto+Parts+Shop') center/cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.about-hero,
+.products-hero,
+.contact-hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x500?text=HASHIM+Auto+Parts') center/cover;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.products-hero h1,
+.about-hero h1,
+.contact-hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+
+.products-intro {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 2rem 2.5rem;
+    background: linear-gradient(to right, #f0f4f8, #ffffff);
+    border-left: 6px solid #003087;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.products-intro p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #222;
+    margin: 0;
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.autoparts {
+    height: 140px;
+    width: auto;
+    object-fit: contain;
+}
+
+
+.view-btn {
+    color: #003087;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.view-btn:hover {
+    color: #e60012;
+}
+
+.view-btn:active{
+    color: #003087;
+}
+
+.details {
+    display: none;
+    text-align: left;
+    margin-top: 15px;
+    background: #f0f0f0;
+    padding: 12px 15px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    border-left: 4px solid #003087;
+}
+
+.details ul {
+    list-style: square;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.details li {
+    margin-bottom: 5px;
+    color: #222;
+}
+
+
+.story-content {
+    max-width: 850px;
+    margin: 0 auto;
+    line-height: 1.9;
+}
+
+.story-content p {
+    margin-bottom: 1.4rem;
+    font-size: 1.15rem;
+}
+
+
+footer {
+    background: #111;
+    color: white;
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.brand-logos img {
+    height: 45px;
+    background: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.brand-logos img:hover {
+    transform: scale(1.1);
+}
+
+
+.form-control {
+    background: #222;
+    border: 1px solid #444;
+    color: white;
+}
+
+.form-control:focus {
+    background: #2a2a2a;
+    color: white;
+    border-color: #e60012;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #aaa;
+} 

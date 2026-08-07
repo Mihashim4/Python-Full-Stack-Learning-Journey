@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - HASHIM Auto Parts</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+             <a class="navbar-brand logo" href="index.html">
+                <span><img src="HashimAutoParts.jpg" alt="HASHIM Auto Parts" style="height: 50px; width: auto; padding: 5px;border: 2px solid #ccc;border-radius: 5px;"></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="offer-bar">
+        <marquee behavior="scroll" direction="left" scrollamount="8">
+            🔥 Special Offer: Save up to 25% on Auto Parts & Old Motor Spares! Limited Time Only! 🔥
+        </marquee>
+    </div>
+
+    
+    <section class="about-hero">
+        <h1>Our Story</h1>
+    </section>
+
+    
+    <section class="story py-5">
+        <div class="container">
+            <div class="story-content">
+                <p>This website is a tribute to my grandfather's old shop — <strong>HASHIM Auto Parts & Old Motor Spare Parts</strong>.</p>
+                
+                <p>For many years, the shop was a trusted place in Marthandam where people could find new and old spare parts for cars, lorries, autos, and more. From engine parts to bearings, tires, and electrical components — my grandfather helped many customers keep their vehicles running.</p>
+                
+                <p>Though the physical shop is no longer there, the hard work, honesty, and service it provided remain in our memories.</p>
+                
+                <p>This website is created in loving memory of that small but important business that served the community for a long time.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="text-center py-4">
+        <div class="brands mb-3">
+            <p>Our Tyre Partners:</p>
+            <div class="brand-logos">
+                <a href="https://wandatyre.cn/"><img src="Wanda.jpeg" alt="Wanda"></a>
+                <a href="https://www.kendatire.com/en-us/"><img src="Kenda_Logo.jpeg" alt="Kenda"></a>
+                <a href="https://www.powermaxtyre.com/Bike-Tyres.html"><img src="powermax.jpeg" alt="PowerMax"></a>
+                <a href="https://leao-tyres.com/"><img src="Leao.jpeg" alt="Leao"></a>
+            </div>
+        </div>
+        <p>&copy; Hashim Auto Parts - In Memory of the Old Shop</p>
+        <p>Kulasekharam Road, Keezh Pammam, Marthandam - 629 165</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".brand-logos img").click(function () {
+                alert("Thank you for checking our tyre partners!");
+            });
+
+            $("h1, p").hide().fadeIn(2000);
+        });
+    </script>
+</body>
+</html>
