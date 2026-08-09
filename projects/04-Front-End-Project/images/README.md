@@ -38,6 +38,7 @@ This folder contains all the images used in the **HASHIM Auto Parts** website.
 | `Kenda_Logo.jpeg`   | Kenda Tyres    |
 | `powermax.jpeg`     | PowerMax       |
 | `Leao.jpeg`         | Leao Tyres     |
+| `HashimAutoParts.jpg`| Hashim Auto Parts|
 
 ---
 
