@@ -80,7 +80,7 @@ Although the physical shop no longer exists, this website keeps its memory alive
 ## Author
 
 **Mohamed Imran Hashim**  
-YouTube: [mihashim4](https://youtube.com/@mihashim4)
+YouTube: [@mihashim4](https://youtube.com/@mihashim4)
 
 ---
 
