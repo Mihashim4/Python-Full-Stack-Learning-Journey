@@ -39,7 +39,8 @@ body {
 
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x600?text=Auto+Parts+Shop') center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1600') center/cover;
     height: 70vh;
     display: flex;
     align-items: center;
@@ -50,10 +51,8 @@ body {
 .about-hero,
 .products-hero,
 .contact-hero {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x500?text=HASHIM+Auto+Parts') center/cover;
-    height: 45vh;
-    display: flex;
-    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1600') center/cover;
     align-items: center;
     justify-content: center;
     color: white;
