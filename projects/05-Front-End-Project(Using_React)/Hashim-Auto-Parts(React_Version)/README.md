@@ -1,77 +1,89 @@
-# 05 - Front-End Project (Using React)
-
-This folder contains the **React.js version** of the Hashim Auto Parts website.
-
-## 🏪 Project: Hashim Auto Parts (React)
-
-A modern, responsive auto parts business website built with React.js and Bootstrap.
-
-### What's Inside
-| Folder | Description |
-|--------|-------------|
-| `Hashim-Auto-Parts-(React)/` | Main React application |
-| `src/components/` | Reusable components (Navbar, Footer) |
-| `src/pages/` | Page components (Home, Products, About, Contact) |
-| `public/images/` | Product images and brand logos |
-
-### Tech Stack
-- React 18
-- React Router DOM
-- Bootstrap 5
-- CSS3
-
-### How to Run
-```bash
-cd Hashim-Auto-Parts-(React)
-npm install
-npm start
-```
-### Note
-This is the React upgrade of Project 04 (HTML/CSS version).
-
-
----
-
-## 2. `projects/05-Front-End-Project ( Using React)/Hashim-Auto-Parts-(React)/README.md`
-
-```markdown
 # HASHIM Auto Parts 🚗🔧
 
 ![Logo](/public/HashimAutoParts.jpg)
 
-A responsive auto parts business website built with **React.js**.
-```
-## 🌐 Live Preview
+A modern, responsive auto parts business website built with **React.js** and **Bootstrap 5**.
+
+## 🌐 Live Demo
+
 Open [http://localhost:3000](http://localhost:3000) after running `npm start`.
 
-## 📋 Pages
+## 📋 Pages & Routes
 
-| Route | Page | Description |
-|-------|------|-------------|
-| `/` | Home | Hero section, business intro |
-| `/products` | Products | 16 auto parts categories |
-| `/about` | About | Company history |
-| `/contact` | Contact | Details + message form |
+| Route | Page | File | Description |
+|-------|------|------|-------------|
+| `/` | Home | `src/pages/Home.jsx` | Hero banner, business intro, tyre partners |
+| `/products` | Products | `src/pages/Products.jsx` | 16 auto parts categories with expandable details |
+| `/about` | About | `src/pages/About.jsx` | Company history and background |
+| `/contact` | Contact | `src/pages/Contact.jsx` | Contact details + send message form |
 
 ## 🗂️ Folder Structure
 
-src/
-├── components/
-│   ├── Navbar.jsx      # Top navigation bar
-│   └── Footer.jsx      # Footer with tyre partners
-├── pages/
-│   ├── Home.jsx
-│   ├── Products.jsx    # Product catalog with toggle details
-│   ├── About.jsx
-│   └── Contact.jsx     # Two-column contact layout
-├── App.jsx             # Routes setup
-└── App.css             # Global styles
-
+Hashim-Auto-Parts-(React)/
+├── public/
+│   ├── images/              # 18 product & brand images
+│   ├── HashimAutoParts.jpg  # Business logo
+│   ├── index.html           # HTML template
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx       # Top navigation bar
+│   │   └── Footer.jsx       # Footer with tyre partner logos
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Products.jsx     # Product catalog with toggle details
+│   │   ├── About.jsx
+│   │   └── Contact.jsx      # Two-column contact layout
+│   ├── App.jsx              # Routes & layout setup
+│   ├── App.css              # Global & custom styles
+│   └── index.js             # Entry point
+├── package.json
+└── README.md
 
 ## 🚀 Getting Started
 
+### Prerequisites
+- [Node.js](https://nodejs.org/) installed
+
+### Installation
 ```bash
 npm install
+```
+# Run Development Server
+```bash
 npm start
 ```
-© Hashim Auto Parts
+Opens at http://localhost:3000
+
+# Build for Production
+
+```bash
+npm run build
+```
+# 🎨 Features
+• ✅ Multi-page React app with React Router DOM
+• ✅ Responsive Bootstrap 5 grid layout
+• ✅ Expandable product details (16 categories)
+• ✅ Contact form with validation
+• ✅ Dark-themed contact inputs
+• ✅ Mobile-friendly navigation
+• ✅ Tyre partner brand section
+
+# 🛠️ Tech Stack
+• React 18
+• React Router DOM
+• Bootstrap 5
+• CSS3
+• JavaScript (ES6+)
+
+# 📞 Contact
+|             |                                                       |
+| ----------- | ----------------------------------------------------- |
+| **Prop**    | M. Nasar                                              |
+| **YouTube** | [@mihashim4](https://youtube.com/@mihashim4)          |
+| **Email**   | <mihashim4@gmail.com>                                 |
+| **Mobile**  | 9486452629                                            |
+| **Res**     | 04651-271145                                          |
+| **Address** | Kulasekharam Road, Keezh Pammam, Marthandam - 629 165 |
+
+© Hashim Auto Parts - In Memory of the Old Shop
