@@ -1,6 +1,5 @@
 # HASHIM Auto Parts 🚗🔧
 
-![Logo](/public/HashimAutoParts.jpg)
 
 A modern, responsive auto parts business website built with **React.js** and **Bootstrap 5**.
 
