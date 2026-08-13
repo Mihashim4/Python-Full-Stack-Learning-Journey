@@ -1,5 +1,6 @@
 # HASHIM Auto Parts 🚗🔧
 
+<img width="1459" height="435" alt="HashimAutoParts" src="https://github.com/user-attachments/assets/e0155778-3cec-42c6-ba4b-dac820c7a234" />
 
 A modern, responsive auto parts business website built with **React.js** and **Bootstrap 5**.
 
