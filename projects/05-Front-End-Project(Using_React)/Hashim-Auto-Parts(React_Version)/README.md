@@ -23,12 +23,12 @@ Hashim-Auto-Parts-(React)/
 ├── public/
 │   ├── images/              # 18 product & brand images
 │   ├── HashimAutoParts.jpg  # Business logo
-│   ├── index.html           # HTML template
+│   ├── index.html           # React HTML template
 │   └── ...
 ├── src/
 │   ├── components/
-│   │   ├── Navbar.jsx       # Top navigation bar
-│   │   └── Footer.jsx       # Footer with tyre partner logos
+│   │   ├── Navbar.jsx       # React Top navigation bar
+│   │   └── Footer.jsx       # React Footer with tyre partner logos
 │   ├── pages/
 │   │   ├── Home.jsx
 │   │   ├── Products.jsx     # Product catalog with toggle details
