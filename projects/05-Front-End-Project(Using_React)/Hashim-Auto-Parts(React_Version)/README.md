@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) after running `npm start`.
 | `/contact` | Contact | `src/pages/Contact.jsx` | Contact details + send message form |
 
 ## 🗂️ Folder Structure
-
+```
 Hashim-Auto-Parts-(React)/
 ├── public/
 │   ├── images/              # 18 product & brand images
@@ -39,7 +39,7 @@ Hashim-Auto-Parts-(React)/
 │   └── index.js             # Entry point
 ├── package.json
 └── README.md
-
+```
 ## 🚀 Getting Started
 
 ### Prerequisites
