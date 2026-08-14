@@ -62,19 +62,31 @@ npm run build
 ```
 # 🎨 Features
 • ✅ Multi-page React app with React Router DOM
+
 • ✅ Responsive Bootstrap 5 grid layout
+
 • ✅ Expandable product details (16 categories)
+
 • ✅ Contact form with validation
+
 • ✅ Dark-themed contact inputs
+
 • ✅ Mobile-friendly navigation
+
 • ✅ Tyre partner brand section
 
 # 🛠️ Tech Stack
+
 • React 18
+
 • React Router DOM
+
 • Bootstrap 5
+
 • CSS3
+
 • JavaScript (ES6+)
+
 
 # 📞 Contact
 |             |                                                       |
