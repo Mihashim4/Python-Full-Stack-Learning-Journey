@@ -24,6 +24,9 @@ function Contact() {
       alert("Thank you! Your message has been received.");
       setFormData({ name: "", email: "", message: "" });
     }
+    else{
+      alert("Submission cancelled.");
+    }
   };
 
   return (
