@@ -11,7 +11,8 @@ This repository contains my projects, practice exercises, notes, and experiments
 - CSS3
 - Responsive Web Design
 - JavaScript
-
+- React JS
+  
 ### Backend Development
 - Python
 - Flask / Django
