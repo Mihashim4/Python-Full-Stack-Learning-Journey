@@ -87,3 +87,5 @@ YouTube: [mihashim4](https://youtube.com/@mihashim4)
 ## Note
 
 This is a personal learning and tribute project.
+
+© Hashim Auto Parts - In Memory of the Old Shop
