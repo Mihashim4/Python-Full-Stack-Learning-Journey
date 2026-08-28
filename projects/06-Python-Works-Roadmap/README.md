@@ -24,3 +24,10 @@ python <script_name>.py
 ```
 
 > 💡 These projects are beginner exercises and intentionally simple. They mark early milestones in my Python learning journey.
+
+## 📸 Screenshots
+
+| Project | Output |
+|---------|--------|
+| 01 - Grade Calculator | ![Grade Calculator](./01-Grade-Calculator/screenshots/grade-calculator-output.png) |
+| 02 - Login System | ![Login Success](./02-Database-Username-Password-Identifiying-And-Continue-Login/screenshots/login-success.png) |

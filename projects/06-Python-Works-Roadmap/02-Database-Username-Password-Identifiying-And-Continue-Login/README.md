@@ -53,3 +53,9 @@ No Username Found
 - String comparison (`==`)
 - Nested `if` / `else` statements
 - Multi-user decision flow
+
+## 📸 Screenshot
+
+Successful login run with `Mihashim4` / `1234567`:
+
+![Login Success](./screenshots/login-success.png)

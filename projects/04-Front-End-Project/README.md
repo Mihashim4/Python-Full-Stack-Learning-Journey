@@ -75,6 +75,20 @@ Although the physical shop no longer exists, this website keeps its memory alive
 2. Keep all files in the same folder
 3. Open `index.html` in any browser
 
+## 🖥️ Screenshots
+
+### Home Page
+![Home Page](./Files/screenshots/index-page.png)
+
+### Products Page
+![Products Page](./Files/screenshots/products-page.png)
+
+### About Page
+![About Page](./Files/screenshots/about-page.png)
+
+### Contact Page
+![Contact Page](./Files/screenshots/contact-page.png)
+
 ---
 
 ## Author

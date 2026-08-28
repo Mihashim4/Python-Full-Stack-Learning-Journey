@@ -38,3 +38,9 @@ You got grade A
 - Type conversion (`int()`)
 - Conditional statements (`if`, `elif`, `else`)
 - Comparison operators
+
+## 📸 Screenshot
+
+Sample run with input `88`:
+
+![Grade Calculator Output](./screenshots/grade-calculator-output.png)
