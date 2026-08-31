@@ -1,68 +1,26 @@
-<div align="center">
-
-<img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="Python Logo" width="220">
-
 # ✖️ Multiplication Table Creator
 
-### A simple Python program that generates the multiplication table of any number from 1 to 10.
+A beginner-friendly Python program that creates the multiplication table of a number from **1 to 10**.
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
-![Beginner Friendly](https://img.shields.io/badge/Level-Beginner-success)
+![Level](https://img.shields.io/badge/Level-Beginner-success)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
-</div>
 
 ---
 
 ## 📖 About the Project
 
-**Multiplication Table Creator** is a beginner-friendly Python project that asks the user for a number and displays its multiplication table from **1 to 10**.
+This program asks the user to enter a number and then uses a `for` loop to print its multiplication table up to **10**.
 
-This project is part of my **Python Full Stack Learning Journey** and helps practice fundamental Python concepts such as:
+This project helps practice:
 
-- 🔢 User input
-- 🔄 `for` loops
-- ➗ Arithmetic operations
-- 🖨️ Output formatting
-- 🔤 Type conversion with `int()`
-
----
-
-## ✨ Features
-
-- ✅ Accepts a number from the user
-- ✅ Generates a multiplication table automatically
-- ✅ Displays results from **1 × number** to **10 × number**
-- ✅ Uses a simple and beginner-friendly `for` loop
-- ✅ Lightweight with no external libraries required
-
----
-
-## 🧠 How It Works
-
-```text
-┌──────────────────────┐
-│   User enters a      │
-│       number         │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  Python converts the │
-│   input into an int  │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ Loop runs from 1–10  │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ Multiplication table │
-│     is displayed     │
-└──────────────────────┘
-```
+- `input()`
+- `int()`
+- Variables
+- `for` loops
+- `range()`
+- Multiplication
+- `print()`
 
 ---
 
@@ -77,51 +35,174 @@ for i in range(1, 11):
 
 ---
 
-## ▶️ Example Output
+# 🧠 How the Code Works
+
+![How the code works](images/code-working.png)
+
+## 1️⃣ Getting the Number from the User
+
+```python
+num = int(input("Enter a number to find it's Multiplication table (upto x 10):  "))
+```
+
+### What happens here?
+
+1. `input()` displays a message and waits for the user to type a value.
+2. The value entered by the user is initially treated as **text (a string)**.
+3. `int()` converts that text into an **integer**.
+4. The integer is stored in the variable `num`.
+
+### Example
+
+If the user enters:
 
 ```text
-Enter a number to find it's Multiplication table (upto x 10):  7
+7
+```
 
-7 x 1 =  7
-7 x 2 =  14
-7 x 3 =  21
-7 x 4 =  28
-7 x 5 =  35
-7 x 6 =  42
-7 x 7 =  49
-7 x 8 =  56
-7 x 9 =  63
-7 x 10 =  70
+Then:
+
+```python
+num = 7
 ```
 
 ---
 
-## 🛠️ Requirements
+## 2️⃣ Starting the Loop
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="55" align="right">
+```python
+for i in range(1, 11):
+```
 
-- Python **3.x**
-- A terminal or command prompt
+`range(1, 11)` generates the numbers:
 
-No external packages are required. 🎉
+```text
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+```
+
+The loop runs **10 times**.
+
+During each iteration, `i` changes:
+
+| Loop | Value of `i` |
+|---|---:|
+| 1st | 1 |
+| 2nd | 2 |
+| 3rd | 3 |
+| ... | ... |
+| 10th | 10 |
+
+---
+
+## 3️⃣ Performing the Multiplication
+
+```python
+num * i
+```
+
+Suppose the user entered:
+
+```text
+7
+```
+
+During the first loop:
+
+```python
+num = 7
+i = 1
+
+7 * 1 = 7
+```
+
+During the second loop:
+
+```python
+num = 7
+i = 2
+
+7 * 2 = 14
+```
+
+This continues until `i` reaches `10`.
+
+---
+
+## 4️⃣ Printing the Result
+
+```python
+print(num, "x", i, "= ", num * i)
+```
+
+Python combines the values and displays them.
+
+For example:
+
+```text
+7 x 1 = 7
+```
+
+Then:
+
+```text
+7 x 2 = 14
+```
+
+And the process continues until:
+
+```text
+7 x 10 = 70
+```
+
+---
+
+# 🔄 Complete Execution Flow
+
+```text
+User enters a number
+        ↓
+input() receives the value
+        ↓
+int() converts it to an integer
+        ↓
+Value is stored in num
+        ↓
+for loop starts
+        ↓
+i goes from 1 to 10
+        ↓
+num × i is calculated
+        ↓
+Result is printed
+        ↓
+Loop repeats until i = 10
+        ↓
+Program ends
+```
+
+---
+
+# ▶️ Example Output
+
+![Example Output](images/example-output.png)
 
 ---
 
 ## 🚀 How to Run
 
-### 1. Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/Mihashim4/Python-Full-Stack-Learning-Journey.git
 ```
 
-### 2. Navigate to this project
+Navigate to this project:
 
 ```bash
 cd Python-Full-Stack-Learning-Journey/projects/06-Python-Works-Roadmap/03-Multiplication-Table-Creator
 ```
 
-### 3. Run the program
+Run the program:
 
 ```bash
 python multiplication_table.py
@@ -135,44 +216,39 @@ python multiplication_table.py
 03-Multiplication-Table-Creator/
 │
 ├── multiplication_table.py
-└── README.md
+├── README.md
+│
+└── images/
+    ├── code-working.png
+    └── example-output.png
 ```
 
 ---
 
 ## 📚 Concepts Practiced
 
-| Concept | Description |
+| Concept | Purpose |
 |---|---|
-| `input()` | Receives a number from the user |
-| `int()` | Converts the entered text into an integer |
-| `for` loop | Repeats the calculation from 1 to 10 |
-| `range()` | Generates numbers from 1 through 10 |
-| Arithmetic | Calculates the multiplication result |
-| `print()` | Displays the table in the terminal |
+| `input()` | Gets the number from the user |
+| `int()` | Converts the input into an integer |
+| `num` | Stores the user's number |
+| `for` loop | Repeats the multiplication process |
+| `range(1, 11)` | Generates values from 1 to 10 |
+| `num * i` | Calculates the multiplication |
+| `print()` | Displays each result |
 
 ---
 
-## 🔮 Possible Future Improvements
+## 🔮 Possible Improvements
 
-- [ ] Allow the user to choose the ending limit instead of always using 10
-- [ ] Add input validation for non-numeric values
-- [ ] Create a graphical user interface (GUI)
-- [ ] Save multiplication tables to a text file
-- [ ] Generate tables for multiple numbers at once
+- [ ] Let the user choose the ending limit
+- [ ] Add validation for invalid input
+- [ ] Generate tables for multiple numbers
+- [ ] Create a GUI version
+- [ ] Save the table to a file
 
 ---
 
-<div align="center">
+### ⭐ Part of My Python Full Stack Learning Journey
 
-### 🌟 Part of My Python Full Stack Learning Journey
-
-<img src="https://img.shields.io/badge/Keep-Learning-FF6B6B?style=for-the-badge" alt="Keep Learning">
-<img src="https://img.shields.io/badge/Keep-Building-4ECDC4?style=for-the-badge" alt="Keep Building">
-<img src="https://img.shields.io/badge/Keep-Improving-6C5CE7?style=for-the-badge" alt="Keep Improving">
-
-<br><br>
-
-**Made with ❤️ and Python**
-
-</div>
+**Keep Learning • Keep Building • Keep Improving 🚀**
