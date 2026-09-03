@@ -1,4 +1,4 @@
-# 06 - Python Works Roadmap 🐍
+# 06 - Python Works Roadmap
 
 A collection of small Python practice projects I built while learning the language fundamentals. Each subfolder is a self-contained mini-project focused on a specific concept (conditionals, nested if/else, user input, etc.).
 
