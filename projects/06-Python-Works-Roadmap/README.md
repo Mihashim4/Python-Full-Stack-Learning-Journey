@@ -30,4 +30,4 @@ python <script_name>.py
 | Project | Output |
 |---------|--------|
 | 01 - Grade Calculator | ![Grade Calculator](./01-Grade-Calculator/screenshots/grade-calculator-output.png) |
-| 02 - Login System | ![Login Success](./02-Database-Username-Password-Identifiying-And-Continue-Login/screenshots/login-success.png) |
+| 02 - Login System | ![Login Success](./02-Practical-Login-System/screenshots/login-success.png) |
