@@ -31,3 +31,4 @@ python <script_name>.py
 |---------|--------|
 | 01 - Grade Calculator | ![Grade Calculator](./01-Grade-Calculator/screenshots/grade-calculator-output.png) |
 | 02 - Login System | ![Login Success](./02-Practical-Login-System/screenshots/login-success.png) |
+| 03 - Multiplication Table Creator | ![Multiplication Table Creator](./03-Multiplication-Table-Creator/images/code-working.png) |
