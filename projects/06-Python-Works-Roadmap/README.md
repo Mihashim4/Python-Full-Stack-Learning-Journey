@@ -15,6 +15,7 @@ A collection of small Python practice projects I built while learning the langua
 |---|---------|---------|
 | 01 | [Grade Calculator](./01-Grade-Calculator/) | if/elif/else based on numeric marks |
 | 02 | [Database Username & Password Login](./02-Database-Username-Password-Identifiying-And-Continue-Login/) | Nested if/else for credential checking |
+| 03 | [Multiplication Table Creator](./03-Multiplication-Table-Creator/images/code-working.png) | Nested if/else for creating table creator |
 
 ## ▶️ How to Run Any Project
 
